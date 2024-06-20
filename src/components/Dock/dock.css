@@ -1,0 +1,85 @@
+.dock-container {
+  width: max-content;
+  position: fixed;
+  bottom: 30px; /* Ajusta la distancia del dock desde abajo */
+  left: 50%;
+  transform: translate(-50%, 0);
+  padding: 0.5em 0.25em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--dark-bg-color);
+  border: 1px solid var(--dark-card-border);
+  border-radius: 40px;
+  transform-origin: center;
+  cursor: pointer;
+  z-index: 1000000;
+  padding-bottom: 0.5em; /* Padding inferior cuando no está en hover */
+  transition: padding-bottom 0.3s; /* Transición para suavizar el cambio */
+}
+
+.dock-container:hover {
+  padding-bottom: 0.25em; /* Vuelve al estado original cuando está en hover */
+}
+
+.dock {
+  display: flex;
+  justify-content: space-around;
+  width: 100%; /* Asegura que el dock tome todo el ancho de su contenedor */
+  margin-bottom: 12px; /* Ajusta el margen inferior del dock para separarlo del botón */
+}
+
+.dock-item {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background: var(--dark-btn-bg);
+  border: 1px solid var(--dark-card-border);
+  border-radius: 30px;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: scale(1);
+  transition: 700ms cubic-bezier(0.075, 0.82, 0.165, 1);
+  transform-origin: bottom;
+}
+
+.dock-item-link-wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dock-text {
+  color: white;
+  font-size: 1em;
+  transition: opacity 0.3s;
+  opacity: 0;
+  background: var(--dark-btn-bg);
+  border: 1px solid var(--dark-card-border);
+  border-radius: 30px;
+  padding: 4px 12px;
+  text-align: center;
+  width: 50%; /* Half the width of the dock container */
+  margin: 0 auto; /* Center align the text button */
+}
+
+.dock-container:hover .dock-text {
+  opacity: 1;
+}
+
+@media (max-width: 900px) {
+  .dock-item {
+    width: 30px;
+    height: 30px;
+  }
+  .dock-text {
+    opacity: 1; /* Ensure the text is always visible on mobile */
+  }
+}
