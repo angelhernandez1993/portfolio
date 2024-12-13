@@ -2,9 +2,48 @@ import React from 'react';
 import './work.css';
 import WorkItem from './WorkItem';
 
-// Importación de los archivos existentes y nuevos
-import Work1 from '/Users/angelhernandezlencina/Downloads/CGMWTAPRIL2024 2/Source Code/soren/src/assets/work/work-1.jpg';
-// ... Aquí van todas las importaciones de los trabajos ...
+// Importación de los archivos existentes y nuevos con las rutas actualizadas
+import Work1 from '/Users/angelhernandezlencina/Desktop/THEBESTDESIGN/TBD/PORTFOLIO/soren/src/assets/work/work-1.jpg';
+import Work2 from '/Users/angelhernandezlencina/Desktop/THEBESTDESIGN/TBD/PORTFOLIO/soren/src/assets/work/work-2.jpg';
+import Work3 from '/Users/angelhernandezlencina/Desktop/THEBESTDESIGN/TBD/PORTFOLIO/soren/src/assets/work/work-3.jpg';
+import Work4Video from '/Users/angelhernandezlencina/Desktop/THEBESTDESIGN/TBD/PORTFOLIO/soren/src/assets/work/work-4.mp4';
+import Work5 from '/Users/angelhernandezlencina/Desktop/THEBESTDESIGN/TBD/PORTFOLIO/soren/src/assets/work/work-5.jpg';
+import Work6 from '/Users/angelhernandezlencina/Desktop/THEBESTDESIGN/TBD/PORTFOLIO/soren/src/assets/work/work-6.jpg';
+import Work7 from '/Users/angelhernandezlencina/Desktop/THEBESTDESIGN/TBD/PORTFOLIO/soren/src/assets/work/work-7.jpg';
+import Work8 from '/Users/angelhernandezlencina/Desktop/THEBESTDESIGN/TBD/PORTFOLIO/soren/src/assets/work/work-8.jpg';
+import Work9 from '/Users/angelhernandezlencina/Desktop/THEBESTDESIGN/TBD/PORTFOLIO/soren/src/assets/work/work-9.jpg';
+import Work10 from '/Users/angelhernandezlencina/Desktop/THEBESTDESIGN/TBD/PORTFOLIO/soren/src/assets/work/work-10.jpg';
+import Work11 from '/Users/angelhernandezlencina/Desktop/THEBESTDESIGN/TBD/PORTFOLIO/soren/src/assets/work/work-11.jpg';
+import Work12 from '/Users/angelhernandezlencina/Desktop/THEBESTDESIGN/TBD/PORTFOLIO/soren/src/assets/work/work-12.jpg';
+import Work13 from '/Users/angelhernandezlencina/Desktop/THEBESTDESIGN/TBD/PORTFOLIO/soren/src/assets/work/work-13.jpg';
+import Work14 from '/Users/angelhernandezlencina/Desktop/THEBESTDESIGN/TBD/PORTFOLIO/soren/src/assets/work/work-14.jpg';
+import Work15 from '/Users/angelhernandezlencina/Desktop/THEBESTDESIGN/TBD/PORTFOLIO/soren/src/assets/work/work-15.jpg';
+import Work16 from '/Users/angelhernandezlencina/Desktop/THEBESTDESIGN/TBD/PORTFOLIO/soren/src/assets/work/work-16.jpg';
+import Work17 from '/Users/angelhernandezlencina/Desktop/THEBESTDESIGN/TBD/PORTFOLIO/soren/src/assets/work/work-17.jpg';
+import Work18Video from '/Users/angelhernandezlencina/Desktop/THEBESTDESIGN/TBD/PORTFOLIO/soren/src/assets/work/work-18.mp4';
+import Work19Video from '/Users/angelhernandezlencina/Desktop/THEBESTDESIGN/TBD/PORTFOLIO/soren/src/assets/work/work-19.mp4';
+import Work20 from '/Users/angelhernandezlencina/Desktop/THEBESTDESIGN/TBD/PORTFOLIO/soren/src/assets/work/work-20.jpg';
+import Work21Image from '/Users/angelhernandezlencina/Desktop/THEBESTDESIGN/TBD/PORTFOLIO/soren/src/assets/work/work-21.jpg';
+import Work22Video from '/Users/angelhernandezlencina/Desktop/THEBESTDESIGN/TBD/PORTFOLIO/soren/src/assets/work/work-22.mp4';
+import Work23Video from '/Users/angelhernandezlencina/Desktop/THEBESTDESIGN/TBD/PORTFOLIO/soren/src/assets/work/work-23.mp4';
+import Work24Video from '/Users/angelhernandezlencina/Desktop/THEBESTDESIGN/TBD/PORTFOLIO/soren/src/assets/work/work-24.mp4';
+import Work25Video from '/Users/angelhernandezlencina/Desktop/THEBESTDESIGN/TBD/PORTFOLIO/soren/src/assets/work/work-25.mp4';
+import Work26Video from '/Users/angelhernandezlencina/Desktop/THEBESTDESIGN/TBD/PORTFOLIO/soren/src/assets/work/work-26.mp4';
+import Work27Video from '/Users/angelhernandezlencina/Desktop/THEBESTDESIGN/TBD/PORTFOLIO/soren/src/assets/work/work-27.mp4';
+import Work28Video from '/Users/angelhernandezlencina/Desktop/THEBESTDESIGN/TBD/PORTFOLIO/soren/src/assets/work/work-28.mp4';
+import Work29Video from '/Users/angelhernandezlencina/Desktop/THEBESTDESIGN/TBD/PORTFOLIO/soren/src/assets/work/work-29.mp4';
+import Work30 from '/Users/angelhernandezlencina/Desktop/THEBESTDESIGN/TBD/PORTFOLIO/soren/src/assets/work/work-30.jpg';
+import Work31Video from '/Users/angelhernandezlencina/Desktop/THEBESTDESIGN/TBD/PORTFOLIO/soren/src/assets/work/work-31.mp4';
+import Work32 from '/Users/angelhernandezlencina/Desktop/THEBESTDESIGN/TBD/PORTFOLIO/soren/src/assets/work/work-32.jpg';
+import Work33 from '/Users/angelhernandezlencina/Desktop/THEBESTDESIGN/TBD/PORTFOLIO/soren/src/assets/work/work-33.jpg';
+import Work34 from '/Users/angelhernandezlencina/Desktop/THEBESTDESIGN/TBD/PORTFOLIO/soren/src/assets/work/work-34.jpg';
+import Work35Video from '/Users/angelhernandezlencina/Desktop/THEBESTDESIGN/TBD/PORTFOLIO/soren/src/assets/work/work-35.mp4';
+import Work36Video from '/Users/angelhernandezlencina/Desktop/THEBESTDESIGN/TBD/PORTFOLIO/soren/src/assets/work/work-36.mp4';
+import Work37Video from '/Users/angelhernandezlencina/Desktop/THEBESTDESIGN/TBD/PORTFOLIO/soren/src/assets/work/work-37.mp4';
+import Work38 from '/Users/angelhernandezlencina/Desktop/THEBESTDESIGN/TBD/PORTFOLIO/soren/src/assets/work/work-38.jpg';
+import Work39 from '/Users/angelhernandezlencina/Desktop/THEBESTDESIGN/TBD/PORTFOLIO/soren/src/assets/work/work-39.jpg';
+import Work40Video from '/Users/angelhernandezlencina/Desktop/THEBESTDESIGN/TBD/PORTFOLIO/soren/src/assets/work/work-40.mp4';
+import Work41 from '/Users/angelhernandezlencina/Desktop/THEBESTDESIGN/TBD/PORTFOLIO/soren/src/assets/work/work-41.jpg';
 
 const Works = [
   Work1, Work2, Work3, Work4Video, Work5, Work6, Work7, Work8, Work9, Work10,

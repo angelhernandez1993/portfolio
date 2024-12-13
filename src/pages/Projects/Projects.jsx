@@ -20,6 +20,15 @@ const useMultipleScrambles = (projects) => {
 const Projects = () => {
   const projectData = [
     {
+      title: "CEO - The Best Design",
+      copy: "Profesional freelance (Autónomo)",
+      year: "2024 - Presente",
+      para1Title: "Gestión Integral de Marketing para Clientes y Empresas",
+      para1: "Responsable de liderar el desarrollo y ejecución de estrategias integrales de marketing digital para empresas y clientes. Especialización en marketing de crecimiento, SEO/SEM, email marketing, automatizaciones, analítica web y generación de leads. Desarrollo de campañas de publicidad digital y gestión de redes sociales para mejorar la visibilidad y promover las marcas.",
+      para2Title: "Diseño Gráfico y Web, Desarrollo de Contenidos",
+      para2: "Encargado de la creación y diseño de elementos gráficos, como ebooks, creatividades, carteles y materiales para redes sociales. Diseño y gestión de sitios web y plataformas digitales, con un enfoque en la creación de landing pages efectivas. Redacción de contenidos adaptados para blogs, redes sociales, ebooks y otros canales de comunicación digital, optimizando la presencia online y el engagement con la audiencia.",
+    },
+    {
       title: "RESPONSABLE DE MARKETING",
       copy: "Lawoffice/ Kontratos",
       year: "2024 ENE - 2023 SEP",
