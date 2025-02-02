@@ -120,10 +120,10 @@ const Photos = () => {
       <a href="https://www.oslo3.com/" target="_blank" rel="noopener noreferrer">
         <img src={Photo25} alt="Photo 25" />
       </a>
-      <a href="https://alcantaradelmar.com/" target="_blank" rel="noopener noreferrer">
+      <a href="https://www.alcantaradelmar.ponusmgmt.com/" target="_blank" rel="noopener noreferrer">
         <img src={Photo26} alt="Photo 26" />
       </a>
-      <a href="https://www.jardinesdealcantara.com" target="_blank" rel="noopener noreferrer">
+      <a href="https://www.jardinesdealcantara.ponusmgmt.com/" target="_blank" rel="noopener noreferrer">
         <img src={Photo27} alt="Photo 27" />
       </a>
     </div>
